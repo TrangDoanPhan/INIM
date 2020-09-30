@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #8cafbd ;
+}
+
+.wrapper {
+  margin: 0 auto 0 120px;
+  width: 1000px;
+}
+
+.logo img {
+
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #D4DEE5;
+}
+
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+  padding: 0 20px;
+
+}
+
+ul li a:hover {
+  color: #566168;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  color: #6D9D99;
+}
+
+
+.index-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/forside.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.senter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h1 {
+  font-family: arial;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h2 {
+  font-family: arial;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+/*PRODUCT*/
+
+.container2 {
+  margin-top: 100px;
+}
+
+.col-md-7 h2{
+  color: #555;
+}
+
+.cart{
+  background: #FE980F;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+/*aboutU*/
+
+.aboutheader{
+  padding: 50px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container1 {
+  padding: 16px;
+}
+
+.container1::after, .wrapper1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+/*CONTACT*/
+/*
+body{
+  background: url();
+  background-size: cover;
+  height: auto;
+  font-family:
+}*/
+
+.container {
+  max-width: 800px;
+  height: 600px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container p{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #486255;
+}
+
+.input, .msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
